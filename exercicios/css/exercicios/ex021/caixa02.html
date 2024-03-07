@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gruping Tags</title>
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        h1{
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.596);
+        }
+        nav{
+            background-color: rgb(161, 161, 161);
+            padding: 2px;
+            box-shadow: 5px 3px 7px rgba(0, 0, 0, 0.596);
+            
+        }
+        nav>a:hover{
+            background-color: black;
+            color: white;
+        }
+        nav>a{
+            margin-right: 30px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            padding: 2px;
+
+        }
+        article{
+            background-color: lightgray;
+            padding: 5px;
+
+        }
+        article >aside{
+            background-color: rgb(180, 180, 180);
+        }
+        main{
+            box-shadow: 1px 1px 7px black;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px 0px;
+        }
+        footer>p{
+            margin: 0px;
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+        
+        p>a:hover{
+            color: black;
+            background-color: white;
+        }
+        p>a:active{
+            color:white;
+            background-color: black;
+        }
+        
+        p>a{
+
+            color: brown;
+            padding: 1px;
+            text-decoration: none;
+            background-color:rgb(161, 161, 161);
+        }
+        p>a{
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica e Tecnologia</p>
+
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet voluptas totam rem, voluptates debitis saepe fuga tempora iure, accusamus temporibus aliquid odio eius nobis expedita assumenda dicta laborum harum quaerat. <a href="#">Clique aqui</a></p>
+                <aside>
+                    <p>Artigo escrito por José de Silva</p>
+                </aside>
+            </article>
+
+        </section>
+
+    </main>
+    <footer>
+        <p>Desenvouvido pelo curso em video</p>
+
+    </footer>
+</body>
+</html>

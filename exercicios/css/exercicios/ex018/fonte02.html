@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontas externas</title>
+    <style>
+        @font-face {
+            font-family:'teste';
+            src: url('fontes/RoundStyle-Book.ttf') format('truetype');
+
+            /* Tipos de format
+            - truetype (ttf)
+            - opentype (otf)
+            - embedded-opentype
+            - truetype-aat (apple advanced Typegraphy)
+            - svg
+            
+            */
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family:'teste', serif;
+            font-size: 3em;
+            font-weight: normal;
+        }
+        p{
+            font-family:'teste';
+        }
+    </style>
+</head>
+<body>
+    <h1>Olá Mundo!</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minima dicta vel nihil delectus ratione aliquid sapiente quis error quia sunt veritatis accusamus totam molestiae, perspiciatis iste facere nesciunt iusto officia?</p>
+</body>
+</html>
