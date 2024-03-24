@@ -17,7 +17,7 @@
 
  html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color:white;
     font-family: var(--fonte01);
  }
 
@@ -48,6 +48,7 @@
  }
 
 section{
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.521);
     padding-top: 10vh;
     padding-bottom: 10vh;
     line-height: 2em;
@@ -57,14 +58,35 @@ section{
 
 }
 
+section#img01{
+   background-image: url(../imagems/rick\ end\ morty.jpeg);
+   background-position: center center;
+   background-size:cover;
+   background-repeat: no-repeat;
+
+}
+
+section#img02{
+   background-image: url(../imagems/rick-and-morty-3840x2160.jpg);
+   background-position: center center;
+   background-size:cover;
+   background-repeat: no-repeat;
+
+}
+section > p{
+    padding-bottom: 2em;
+}
+
 section.imagem > p{
-   padding: 5px;
-    background-color: rgba(0, 0, 0, 0.329);
+   display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
     color: white;
-    width: 400px;
 }
 section.imagem{
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.534);
     background-color: rgb(82, 82, 82);
+    background-attachment: fixed;
 }
  footer > p{
     background-color: black;
